@@ -6,3 +6,7 @@ CREATE TABLE produto (
 	CONSTRAINT pk_produto PRIMARY KEY (id)
 );
 
+INSERT INTO produto (descricao) 
+VALUES ('Notebook'), ('Mouse'), ('Headset');
+
+SELECT * FROM produto

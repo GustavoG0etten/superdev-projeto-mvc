@@ -12,6 +12,6 @@ public interface GenericDAO {
 	
 	public boolean alterar(Object object);
 	
-	public void ecluir(int id);
+	public void excluir(int id);
 	
 }
